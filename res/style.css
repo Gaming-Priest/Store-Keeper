@@ -1,0 +1,40 @@
+*{
+  font-size: 15px;
+  margin: 0;
+}
+
+.header{
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  border-bottom: 1px solid;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color:#747BCA ;
+  margin-bottom: 1rem;
+}
+.btn{
+  color: white;
+  margin: .5rem;
+}
+.title{
+  margin: .5rem;
+}
+.user{
+  margin:.5rem;
+}
+.items-card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  margin:.7rem;
+}
+.items-card>h5{
+  margin: .7rem;
+}
+.options{
+  display: flex;
+  justify-content: center;
+}
